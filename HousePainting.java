@@ -1,6 +1,8 @@
 import java.util.Scanner;
 public class HousePainting {
-
+	// CS175 
+	// Eric Fomichev 
+	// House painting project
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -50,9 +52,9 @@ public class HousePainting {
 		
 		double totalCost = (totalSqFt * costSqFt);
 		
-		System.out.println("Your total paintable surface area is : " + totalSqFt + "square feet");
+		System.out.println("Your total paintable surface area is " + totalSqFt + " square feet");
 		
-		System.out.println("The total cost to paint your house is : $ " + totalCost);
+		System.out.format("The total cost to paint your house is $%.2f", totalCost);
 
 	}
 
