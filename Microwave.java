@@ -30,6 +30,6 @@ public class Microwave {
 	
 	public void start()
 	{
-		System.out.println("Cooking for " + time + "seconds at level " + powerLevel + "." );
+		System.out.println("Cooking for " + time + " seconds at level " + powerLevel + "." );
 	}
 }
